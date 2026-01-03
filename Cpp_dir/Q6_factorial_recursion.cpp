@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int factorial(int num) {
     if (num == 1) {
@@ -11,7 +12,7 @@ int factorial(int num) {
 int main() {
     int num = 5;
 
-    printf("%d factorial: %d", num, factorial(num));
+    cout << num << " factorial: " << factorial(num);
 
     return 0;
 }

@@ -2,9 +2,9 @@
 
 char* is_pass_or_fail(int score) {
     if (score > 60) {
-        return "Pass"; // Faltava o ;
+        return "Pass";
     } else {
-        return "Fail"; // Faltava o ;
+        return "Fail";
     }
 }
 

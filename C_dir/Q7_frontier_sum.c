@@ -9,8 +9,8 @@ int add_ends(int array[] , int array_size){
 int main() {
     int nums[ARRAY_SIZE];
 
-    for (int i=0; i <= ARRAY_SIZE; ++i) {
-        nums[i] = i*15 + 7;
+    for (int i = 0; i < ARRAY_SIZE; ++i) {
+        nums[i] = i * 15 + 7;
     }
 
     printf("Frontier sum: %d", add_ends(nums, ARRAY_SIZE));

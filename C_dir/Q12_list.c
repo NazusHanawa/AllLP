@@ -30,6 +30,7 @@ int main() {
     
     list_add(&list, 15);
     list_add(&list, 25);
+    list_add(&list, 300);
 
     print_list(list);
 

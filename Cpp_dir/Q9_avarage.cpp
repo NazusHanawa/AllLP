@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 const int NUMS_SIZE = 10;
 
@@ -19,7 +20,7 @@ int main() {
         nums[i] = 7 * (i + 1);
     }
 
-    printf("Avarage: %.2lf", get_avarage_value(nums, NUMS_SIZE));
+    cout << "Avarage: " << get_avarage_value(nums, NUMS_SIZE);
 
     return 0;
 }
